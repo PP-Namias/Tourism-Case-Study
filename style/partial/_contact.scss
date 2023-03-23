@@ -1,0 +1,134 @@
+@use "../global/function" as func;
+
+/* contact section */
+.contact-section {
+  padding: 44px 0;
+  margin-bottom: 80px;
+  overflow-x: hidden;
+  .contact {
+    .contact-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, auto);
+      row-gap: 70px;
+      @media screen and (min-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        column-gap: 66px;
+      }
+      .contact-info {
+        h3 {
+          display: none;
+          @media screen and (min-width: 800px) {
+            display: block;
+            font-size: func.rem(44);
+            font-weight: var(--font-bold);
+            letter-spacing: 1.5px;
+            margin-bottom: 24px;
+          }
+        }
+        p.desc {
+          text-align: center;
+          margin-bottom: 37px;
+          font-size: clamp(1rem, 0.8682rem + 0.641vw, 1.125rem);
+          font-weight: var(--font-regular);
+          line-height: 22px;
+          @media screen and (min-width: 800px) {
+            text-align: left;
+          }
+        }
+        .phone-email {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .email {
+            margin-bottom: 24px;
+          }
+
+          & > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @media screen and (min-width: 800px) {
+              align-items: center;
+              flex-direction: row;
+              gap: 15px;
+            }
+
+            img {
+              width: 36px;
+              height: 36px;
+            }
+            p {
+              font-size: func.rem(18);
+              font-weight: var(--font-bold);
+              letter-spacing: 1.5px;
+            }
+          }
+        }
+      }
+
+      /* contact form */
+      .contact-form {
+        background-color: var(--card-background);
+        padding: 35px 27px;
+        .form {
+          label {
+            font-size: func.rem(18);
+            font-weight: var(--font-bold);
+            letter-spacing: 1.5px;
+          }
+          .form-input {
+            margin-top: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            margin-bottom: 27px;
+            input[type="text"],
+            input[type="email"],
+            textarea {
+              width: 100%;
+              background-color: transparent;
+              border: none;
+              outline: none;
+              padding: 8px 0;
+              border-bottom: 1px solid var(--text-color);
+              color: var(--text-color);
+              font-family: var(--font-space-grotesk);
+              &::placeholder {
+                color: hsl(0, 8%, 80%);
+                font-family: var(--font-space-grotesk);
+                font-size: func.rem(16);
+                font-weight: var(--font-regular);
+              }
+            }
+          }
+          .send-message-btn {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .send-btn {
+              padding: 7px 9px;
+              background-color: var(--underline-color);
+              border: none;
+              outline: none;
+              display: flex;
+              align-items: center;
+              gap: 13px;
+              font-family: var(--font-space-grotesk);
+              font-size: func.rem(15);
+              font-weight: var(--font-regular);
+              color: var(--text-color);
+              letter-spacing: 1.5px;
+              cursor: pointer;
+              transition: background ease-in-out 0.3s;
+              &:hover {
+                background-color: var(--hover-color);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

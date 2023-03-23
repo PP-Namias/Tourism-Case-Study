@@ -1,0 +1,88 @@
+@use "../global/function" as func;
+
+/* about section */
+.about-section {
+  padding: 44px 0;
+  margin-bottom: 80px;
+  overflow-x: hidden;
+  .about {
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, auto);
+      row-gap: 69px;
+      @media screen and (min-width: 800px) {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: auto;
+        align-items: center;
+        column-gap: 68px;
+      }
+      .left-content {
+        @media screen and (min-width: 800px) {
+          text-align: left;
+        }
+        h4 {
+          font-size: clamp(1.3125rem, 1.1148rem + 0.9615vw, 1.5rem);
+          font-weight: var(--font-bold);
+          letter-spacing: 1.5px;
+          margin-bottom: 34px;
+          text-align: center;
+          @media screen and (min-width: 800px) {
+            text-align: left;
+          }
+        }
+        p {
+          font-size: clamp(1rem, 0.8682rem + 0.641vw, 1.125rem);
+          font-weight: var(--font-regular);
+          line-height: 25px;
+          letter-spacing: 1px;
+          margin-bottom: 20px;
+        }
+        p.last-child {
+          margin-bottom: 32px;
+        }
+        .download-btn {
+          color: var(--text-color);
+          font-size: clamp(1rem, 0.8682rem + 0.641vw, 1.125rem);
+          letter-spacing: 1.5px;
+          font-weight: var(--font-bold);
+
+          position: relative;
+
+          &:hover::before {
+            background-color: var(--hover-color);
+            transition: all ease-in-out 0.3s;
+          }
+
+          &::before {
+            content: "";
+            background-color: var(--underline-color);
+            transition: all ease-in-out 0.3s;
+            width: 100%;
+            height: 2px;
+            border-radius: 6px;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+          }
+        }
+      }
+      .right-content {
+        width: 100%;
+        @media screen and (min-width: 600px) {
+          width: 510px;
+          justify-self: center;
+        }
+        @media screen and (min-width: 800px) {
+          width: 100%;
+          max-width: 510px;
+          justify-self: end;
+        }
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

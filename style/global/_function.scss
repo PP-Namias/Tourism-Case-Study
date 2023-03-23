@@ -1,0 +1,5 @@
+
+/* convert px to rem */
+@function rem($pixel){
+    @return calc($pixel / 16) + rem;
+}

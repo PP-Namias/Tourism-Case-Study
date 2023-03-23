@@ -1,0 +1,39 @@
+@use "./variables";
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-space-grotesk);
+  background-color: var(--main-background);
+  color: var(--text-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.title {
+  margin-bottom: 77px;
+  text-align: center;
+  h2 {
+    font-size: clamp(1.75rem, 1.3546rem + 1.9231vw, 2.125rem);
+  }
+  p {
+    font-size: clamp(1rem, 0.8682rem + 0.641vw, 1.125rem);
+  }
+}
+
+.animation_delay {
+  animation-delay: var(--animate-delay);
+}
