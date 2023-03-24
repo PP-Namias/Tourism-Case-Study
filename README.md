@@ -37,7 +37,7 @@
 ## <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="25px" height="25px"> 》Screenshots
 <p align="center">
   <a href="https://github.com/PP-Namias/Tourism-Case-Study">
-    <img src="#">
+    <img src="./img/Tourism Case Study.jpeg">
   </a>
 </p>
 
