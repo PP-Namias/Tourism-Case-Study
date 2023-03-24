@@ -7,7 +7,6 @@ $(document).ready(function() {
     header_height_static = $(".site-header.static").outerHeight(),
     fitscreen = window_height - header_height;
 
-
   $(".fullscreen").css("height", window_height)
   $(".fitscreen").css("height", fitscreen);
 
@@ -15,7 +14,6 @@ $(document).ready(function() {
   $(".default-header").sticky({
     topSpacing: 0
   });
-
 
   if (document.getElementById("default-select")) {
     $('select').niceSelect();
@@ -35,7 +33,6 @@ $(document).ready(function() {
     preloader: false,
     fixedContentPos: false
   });
-
 
   // Select all links with hashes
   $('.navbar-nav a[href*="#"]')
@@ -73,39 +70,23 @@ $(document).ready(function() {
       }
     });
 
-
   $(document).ready(function() {
-
     $('html, body').hide();
-
     if (window.location.hash) {
-
       setTimeout(function() {
-
         $('html, body').scrollTop(0).show();
-
         $('html, body').animate({
-
           scrollTop: $(window.location.hash).offset().top
-
         }, 1000)
-
       }, 0);
-
     } else {
-
       $('html, body').show();
-
     }
-
   });
-
-
 
   $(document).ready(function() {
     $('#mc_embed_signup').find('form').ajaxChimp();
   });
-
 
   $('.filters ul li').click(function() {
     $('.filters ul li').removeClass('active');
@@ -117,7 +98,6 @@ $(document).ready(function() {
     })
   });
 
-
   if (document.getElementById("portfolio")) {
     var $grid = $(".grid").isotope({
       itemSelector: ".all",
@@ -127,8 +107,5 @@ $(document).ready(function() {
       }
     })
   };
-
-
-
 
 });
