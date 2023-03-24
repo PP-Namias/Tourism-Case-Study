@@ -15,10 +15,9 @@
   <a href="https://github.com/PP-Namias/Tourism-Case-Study/issues" target="blank"><img src="https://img.shields.io/github/issues/PP-Namias/Tourism-Case-Study?style=flat-square" alt="Tourism Case Study issues"/></a>
   <a href="https://github.com/PP-Namias/Tourism-Case-Study/pulls" target="blank"><img src="https://img.shields.io/github/issues-pr/PP-Namias/Tourism-Case-Study?style=flat-square" alt="Tourism Case Study pull-requests"/></a>
   <br />
-  The Philippines is a treasure trove of natural wonders and cultural experiences that are waiting to be discovered. By promoting the lesser-known destinations, the tourism industry in the Philippines can attract more visitors, generate income for the locals, and support the economic development of the country.
+  <b>Tourism Case Study</b> is a website designed to showcase the hidden gems of the Philippines. Our goal is to provide tourists with an immersive experience of the beauty of the country, not just on the surface, but also the rich culture and history that lies within. We aim to highlight the unique attractions of the Philippines and promote sustainable tourism in the country.
   <br />
   So, come and explore the hidden treasures of the Philippines. It's more fun in the Philippines!
-  <br />
   <br />
   <a href="https://github.com/PP-Namias/Tourism-Case-Study/issues">Report Bug</a>
   ·
@@ -36,7 +35,6 @@
 - [ ] __Trip Planner__: We will also provide a trip planner tool that allows users to customize their itinerary based on their interests and preferences.
 
 ## <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="25px" height="25px"> 》Screenshots
-<br />
 <p align="center">
   <a href="https://github.com/PP-Namias/Tourism-Case-Study">
     <img src="#">
