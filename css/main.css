@@ -56,9 +56,9 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
-  background: url(../img/philippines.jpg) center;
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.2);
+  background: url(../img/bg.svg) center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 ol, ul {
@@ -2171,7 +2171,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-area {
   margin-top: -100px;
   border-radius: 10px;
-  background: url(../img/philippines.jpg) center;
+  background: url(../img/steep-karst-cliffs-of-el-nido-in-palawan.avif) center;
   background-size: cover;
 }
 
