@@ -56,7 +56,8 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
-  background: url(../img/y-so-serious.png) center;
+  background: url(../img/bg.avif) center;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
@@ -753,22 +754,6 @@ td, th {
 .container.no-padding {
   padding-left: 0;
   padding-right: 0;
-}
-
-video {
-  min-width: 100vh;
-  min-height: 100vh;
-  z-index: 1;
-}
-.overlay {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
-  background-size: 3px 3px;
-  z-index: 2;
 }
 .no-padding {
   padding: 0;
