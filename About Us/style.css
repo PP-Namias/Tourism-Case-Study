@@ -15,6 +15,26 @@ body {
   background-size: cover;
 }
 
+video {
+  height: 100% !important;
+  width: 100% !important;
+  justify-content: center;
+}
+
+.about-us  {
+  left: -25%;
+  position: absolute;
+  width: 150%;
+  top: -100%;
+  display: inline-block;
+  transition: all 0.15s;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+  transition: all 0.15s;
+}
+
 #wrapper {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
@@ -209,6 +229,49 @@ body {
   text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
   transition: all 0.15s;
 }
+#picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  animation: mymove 15s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+
+@keyframes mymove {
+  0% { 
+    background-image: url("./Namias.jpg"); 
+  }
+  12% { 
+    background-color:rgba(0, 0, 0, 0.5); 
+  }
+  25% {     
+    background-image: url("./Rashly.jpg"); 
+  }
+  37% { 
+    background-color:rgba(0, 0, 0, 0.5); 
+  }
+  50% {     
+    background-image: url("./Yvez.jpg"); 
+  }
+  62% { 
+    background-color:rgba(0, 0, 0, 0.5); 
+  }
+  75% {     
+    background-image: url("./Ronan.jpg"); 
+  }
+  87% { 
+    background-color:rgba(0, 0, 0, 0.5); 
+  }
+  100% { 
+    background-image: url("./Namias.jpg"); 
+  }
+}
+
 #wrapper .particles {
   height: 100%;
   left: 0px;

@@ -201,7 +201,7 @@ let drawVisual = null
 const processAudio = mp3 => {
   let audio = null
   if(mp3 === 'default'){
-    audio = new Audio('IMFINTP jingle.mp3')
+    audio = new Audio('IMFITP jingle.mp3')
     audio.crossOrigin = 'anonymous'
   }
   else{

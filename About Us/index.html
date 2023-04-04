@@ -24,14 +24,17 @@
 
   <link rel="icon" href="../img/favicon.png" type="image/jpg"/>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div id="wrapper">
+  <video autoplay muted loop>
+    <source src="testt.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div id="wrapper">
   <div id="drop-zone-wrapper">
     <div id="drop-zone">
       <div id="label"><i class="fa fa-cloud-upload"></i>
@@ -46,18 +49,17 @@
     <div id="audio-canvas-wrapper">
       <canvas id="audio-canvas"></canvas>
     </div>
-    <div id="text">
-      <h1>About</h1>
-      <h1>Us</h1>
+    <div class="about-us">
+      <h1>About Us</h1>
     </div>
+    <div id="picture"></div>
   </div>
   <div class="particles" id="particles-slow"></div>
   <div class="particles initial hidden" id="particles-fast"></div>
   <div id="reset">
     <h1>Reset</h1>
   </div>
-</div>
-<!-- partial -->
+  </div>
   <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
   <script src='https://codepen.io/Hyperplexed/pen/QOvrzd/0299c8b36352c72cbfe8df48b47b54ca.js'></script>
