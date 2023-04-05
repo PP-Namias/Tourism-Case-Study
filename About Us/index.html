@@ -31,7 +31,10 @@
 </head>
 <body>
   <video autoplay muted loop>
-    <source src="testt.mp4" type="video/mp4">
+    <!-- MP4 must be first for Background! -->
+    <source src="testt.mp4" type="video/mp4"><!-- Safari / iOS, IE9 -->
+    <source src="testt.webm" type="video/webm"><!-- Chrome10+, Ffx4+, Opera10.6+ -->
+    <source src="testt.ogv" type="video/ogg"><!-- Firefox3.6+ / Opera 10.5+ -->
     Your browser does not support the video tag.
   </video>
   <div id="wrapper">
@@ -60,9 +63,9 @@
     <h1>Reset</h1>
   </div>
   </div>
-  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
-  <script src='https://codepen.io/Hyperplexed/pen/QOvrzd/0299c8b36352c72cbfe8df48b47b54ca.js'></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script src="https://codepen.io/Hyperplexed/pen/QOvrzd/0299c8b36352c72cbfe8df48b47b54ca.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>

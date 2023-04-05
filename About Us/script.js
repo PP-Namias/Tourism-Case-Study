@@ -203,6 +203,7 @@ const processAudio = mp3 => {
   if(mp3 === 'default'){
     audio = new Audio('IMFITP jingle.mp3')
     audio.crossOrigin = 'anonymous'
+    audio.volume = 0.2
   }
   else{
     audio = createAudio(mp3)
