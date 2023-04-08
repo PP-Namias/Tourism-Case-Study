@@ -2479,8 +2479,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.screen > .screen-image {
+.screen > .screen-image:nth-child(1) {
   background-image: url("../img/Sinulog.jpg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  background-size: 300%;
+  background-position: 0% 0%;
+  filter: sepia(50%) hue-rotate(25deg);
+  opacity: 0.8;
+  animation: pan-image 15s linear infinite;
+}
+
+.screen > .screen-image:nth-child(2) {
+  background-image: url("../img/c1.png");
   height: 100%;
   width: 100%;
   position: absolute;
