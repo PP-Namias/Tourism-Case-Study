@@ -16,111 +16,104 @@
     <title>REST Countries API</title>
 </head>
 <body data-theme="dark">
-    <!-- nav -->
-    <div class="header">
-        <nav class="nav">
-            <div class="wrap navigation">
-                <a href="./" class="logo">
-                       Where in the world?
-                </a>
-    
-                <div id="toggle-theme">
-                    <div class="light-theme">
-                        <div>
-                            <i class="fa-solid fa-sun"></i>
-                        </div>
-                        <p>
-                            light Mode
-                        </p>
+<!-- nav -->
+<div class="header">
+    <nav class="nav">
+        <div class="wrap navigation">
+            <a href="./" class="logo">
+            Where in the world?
+            </a>
+            <div id="toggle-theme">
+                <div class="light-theme">
+                    <div>
+                        <i class="fa-solid fa-sun"></i>
                     </div>
-                    <div class="dark-theme">
-                        <div>
-                            <i class="fa-solid fa-moon"></i>
-                        </div>
-                        <p>
-                            Dark Mode
-                        </p>
+                    <p>
+                        light Mode
+                    </p>
+                </div>
+                <div class="dark-theme">
+                    <div>
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+                    <p>
+                        Dark Mode
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- main -->
+<div class="main">
+    <div class="content wrap">
+        <div class="input-field">
+            <div class="input transitionWidth">
+                <div class="search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input id="inputCountry" type="text" placeholder="Search for country...">
+            </div>
+        </div>
+        <div class="dropdown-container">
+            <div class="dropdown transitionWidth" id="filter-region">
+                <p>
+                    Filter by Region
+                </p>
+                <div class="arrow-down chevron-down">
+                    <span class=""><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+            </div>
+            <ul class="dropdown-menu dropdown-hide">
+                <li class="All">All</li>
+                <li class="Africa">Africa</li>
+                <li class="Americas">America</li>
+                <li class="Asia">Asia</li>
+                <li class="Europe">Europe</li>
+                <li class="Oceania">Oceana</li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap countryInfo">
+        <!-- display country here -->
+    </div>
+</div>
+<div class="more-country-info">
+    <div class="wrap container-info">
+        <button id="back-home-btn">
+        <i class="fa-solid fa-arrow-left-long"></i> Back
+        </button>
+        <div class="grid">
+            <div class="country-flag-info transitionWidth">
+                <img id="country-data-big" src="" alt="">
+            </div>
+            <div class="country-info">
+                <!-- country name -->
+                <div id="country-name" class="country-name">
+                    <p>N/A</p>
+                </div>
+                <!-- country more info -->
+                <div class="country-description">
+                    <div class="left">
+                        <p>Native Name: <span id="native-name">N/A</span></p>
+                        <p>Population: <span id="population">N/A</span></p>
+                        <p>Region: <span id="region">N/A</span></p>
+                        <p>Sub Region: <span id="sub-region">N/A</span></p>
+                        <p>Capital: <span id="capital">N/A</span></p>
+                    </div>
+                    <div class="right">
+                        <p>Top Level Domain: <span id="t-domain">N/A</span></p>
+                        <p>Currencies: <span id="currencies">N/A</span></p>
+                        <p>Languages: <span id="languages">N/A</span></p>
                     </div>
                 </div>
-                
-            </div>
-        </nav> 
-    </div>
-    <!-- main -->
-    <div class="main">  
-            <div class="content wrap">
-                 <div class="input-field">
-                     <div class="input transitionWidth">
-                         <div class="search-logo">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                         </div>
-                         <input id="inputCountry" type="text" placeholder="Search for country...">
-                      </div>
-                 </div>
-                 <div class="dropdown-container">
-                    <div class="dropdown transitionWidth" id="filter-region">
-                         <p>
-                             Filter by Region
-                         </p>
-                         <div class="arrow-down chevron-down">
-                             <span class=""><i class="fa-solid fa-chevron-down"></i></span>
-                         </div>
-                         
-                    </div>
-                    <ul class="dropdown-menu dropdown-hide">
-                        <li class="All">All</li>
-                        <li class="Africa">Africa</li>
-                        <li class="Americas">America</li>
-                        <li class="Asia">Asia</li>
-                        <li class="Europe">Europe</li>
-                        <li class="Oceania">Oceana</li>
-                    </ul>
-                 </div>
-            </div>
-
-            <div class="wrap countryInfo">
-
-                <!-- display country here -->
-
-            </div>
-    </div>
-    <div class="more-country-info">
-        <div class="wrap container-info">
-             <button id="back-home-btn">
-                <i class="fa-solid fa-arrow-left-long"></i> Back
-            </button>
-
-            <div class="grid">
-                <div class="country-flag-info transitionWidth">
-                    <img id="country-data-big" src="" alt="">
-                </div>
-                <div class="country-info">
-                    <!-- country name -->
-                    <div id="country-name" class="country-name">
-                        <p>N/A</p>
-                    </div>
-                    <!-- country more info -->
-                    <div class="country-description">
-                        <div class="left">
-                            <p>Native Name: <span id="native-name">N/A</span></p>
-                            <p>Population: <span id="population">N/A</span></p>
-                            <p>Region: <span id="region">N/A</span></p>
-                            <p>Sub Region: <span id="sub-region">N/A</span></p>
-                            <p>Capital: <span id="capital">N/A</span></p>
-                        </div>
-                        <div class="right">
-                            <p>Top Level Domain: <span id="t-domain">N/A</span></p>
-                            <p>Currencies: <span id="currencies">N/A</span></p>
-                            <p>Languages: <span id="languages">N/A</span></p>
-                        </div>
-                    </div>
-                    <!-- border countries 
+                <!-- border countries 
                     <div class="border-countries">
                         <div class="name">
                             <p>Border Countries: </p>
                         </div>
                         <div class="border-country" id="border-country">
-                             <div class="country">
+                            <div class="country">
                                 <p>France</p>
                             </div>
                             <div class="country">
@@ -132,12 +125,11 @@
                         </div>
                         
                     </div>-->
-                </div>
             </div>
-        </div>      
+        </div>
     </div>
-
-    <!-- script -->
-    <script src="./script/app.js"></script>
+</div>
+<!-- script -->
+<script src="./script/app.js"></script>
 </body>
 </html>
