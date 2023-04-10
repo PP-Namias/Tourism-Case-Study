@@ -23,7 +23,7 @@ html[data-theme="light"]{
     --DarkBlue : hsl(0, 0%, 100%);/* (Dark Mode Elements) */
     --VeryDark : hsl(0, 0%, 98%);/* (Dark Mode Background) */
     --VeryDarkBlue : hsl(0, 0%, 52%);  /*(Light Mode Text)*/
-   /* --DarkGray : hsl(0, 0%, 52%);(Light Mode Input)*/
+    /* --DarkGray : hsl(0, 0%, 52%);(Light Mode Input)*/
     /*--VeryLightGray : hsl(0, 0%, 98%);(Light Mode Background)*/
     --White : hsl(200, 15%, 8%);/*(Dark Mode Text & Light Mode Elements)*/
 
@@ -71,13 +71,14 @@ body{
         display: flex;
         justify-content: space-between;
         padding: toRem(25) 0;
-      
+
         .logo{
             color: var(--White);
             font-size: toRem(19);
             font-weight: var(--fontBold);
             text-decoration: none;  
         }
+
         #toggle-theme{
             display: flex;
             flex-direction: column;
@@ -92,6 +93,7 @@ body{
                 font-weight: var(--font-meduim);
                 cursor: pointer;
             }
+
             .dark-theme{
                 display: none;
                 align-items: center;
@@ -201,6 +203,7 @@ body{
                     font-size: toRem(14);
                     font-weight: var(--font-small);
                 }
+
                 .chevron-down{
                     i{
                         font-size: toRem(10);
@@ -222,7 +225,7 @@ body{
                 top: toRem(54);
                 left: 0;
                 transition: opacity 0.4s ease-in-out;
-                
+
                 li{
                     cursor: pointer;
                 }
@@ -281,6 +284,7 @@ body{
                     width: 100%;
                     height: toRem(250);
                 }
+
                 img{
                     border-top-left-radius: toRem(6);
                     border-top-right-radius: toRem(6);
@@ -294,9 +298,10 @@ body{
                 padding-bottom: toRem(40);
                 padding-left: toRem(24);
                 padding-right: toRem(24);
-            
+
                 .country-name{
                     margin-bottom: toRem(21);
+
                     p{
                         font-size: toRem(16);
                         font-family: var(--NunitoSans);
@@ -307,6 +312,7 @@ body{
                     display: flex;
                     flex-direction: column;
                     row-gap: toRem(9);
+
                     p{
                         font-size: toRem(14);
                         font-family: var(--NunitoSans);
@@ -350,9 +356,10 @@ body{
         font-weight: var(--font-small);
         margin-bottom: toRem(75);
         box-shadow: 4px 1px 12px var(--VeryDarkBlue);
-         i{
-             margin-right: toRem(8);
-         }
+        
+        i{
+            margin-right: toRem(8);
+        }
     }
     //country info large
     .grid{
@@ -516,8 +523,6 @@ body{
     justify-content:center;
     align-items:center;
 
-   
-
     h1{
         @media screen and (max-width: toRem(659)){
             font-size:toRem(60);
@@ -526,11 +531,11 @@ body{
             font-size:toRem(40);
         }
         @media screen and (max-width: toRem(400)){
-             font-size:toRem(30);
+            font-size:toRem(30);
         }
         @media screen and (max-width: toRem(300)){
             font-size:toRem(20);
-       }
+        }
         font-size:toRem(70);
         text-align: center;
     }
