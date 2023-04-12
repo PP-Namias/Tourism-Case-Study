@@ -1,5 +1,3 @@
-
-
 // toggle dark mode and light mode
 let lightTheme = document.querySelector('.light-theme');
 let darkTheme = document.querySelector('.dark-theme');
@@ -14,7 +12,6 @@ lightTheme.style.display = SAVE_TOGGLE;
 if(SAVE_TOGGLE == 'none'){
     darkTheme.style.display = 'flex';
 }
-
 
 lightTheme.addEventListener('click', ()=>{
     document.documentElement.setAttribute('data-theme', 'light');
@@ -47,20 +44,17 @@ let countryContainer = document.querySelector('.countryInfo');
 let countryData = [];
 
 // fetching api in rest country api
- let countryList = async ()=>{
+let countryList = async ()=>{
     try {
     let fetchCountryList = await fetch('https://restcountries.com/v2/all');
     countryData = await fetchCountryList.json();
-    
+
     loadCountry(countryData);
     } catch (error) {
         alert(error);
     }
-       
 }
 countryList();
-
-
 
 // search country *************************************************
 let searchCountry = document.querySelector('#inputCountry');
@@ -69,29 +63,21 @@ searchCountry.addEventListener('input', (e) =>{
 
     // the function of this is make the first letter of input to capitalize
     const capitalizeSearch = search.charAt(0).toUpperCase() + search.slice(1);
-
     let searchCountry = countryData.filter(countries=>{
-
         return countries.name.includes(capitalizeSearch)
-
     })
 
     if(capitalizeSearch.match(searchCountry)){
         countryContainer.innerHTML = `
-                      <div class="displayText">
-
-                          <h1>Country Not Found</h1>
-
-                      </div>`                 
+                        <div class="displayText">
+                            <h1>Country Not Found</h1>
+                        </div>`                 
     }
     else{
-       loadCountry(searchCountry);               
+        loadCountry(searchCountry);               
     }
-    
-  
 })
 //******************************************************************************* */
-
 
 // filter by region ***************************************************
 let dropdownlist = document.querySelectorAll('.dropdown-menu li');
@@ -101,7 +87,6 @@ let filterRegionName = document.querySelector('#filter-region');
 dropdownlist.forEach(listRegion =>{
     listRegion.addEventListener('click', (e)=>{
         let region = e.target.classList;
-
         if(region != 'All'){
             filteredRegion(region, countryData);
         }
@@ -116,7 +101,6 @@ let filteredRegion = (targetRegion, country)=>{
     let countriesRegion = country.filter(countries=>{
         return countries.region.includes(targetRegion);
     })
-
     loadCountry(countriesRegion)
 }
 //***************************************************************************** */ 
@@ -125,7 +109,7 @@ let filteredRegion = (targetRegion, country)=>{
 let loadCountry = (country)=>{
     let dataGet = "";
     country.forEach((data) =>{
-       dataGet +=  `
+        dataGet +=  `
             <div id="${data.flags.png}" class="countryList transitionWidth">
                 <div class="country-flag">
                     <img id="flag-image1" src="${data.flags.png}" alt="">
@@ -143,9 +127,9 @@ let loadCountry = (country)=>{
             </div>      
         `
     })
-    
+
     countryContainer.innerHTML = dataGet;
-    
+
 
     let countryListContainer = document.querySelectorAll('.countryList');
     countryListContainer.forEach(country=>{
@@ -164,7 +148,6 @@ let loadCountry = (country)=>{
 
 }
 //******************************************************************************* */
-
 
 // declaring varibles for the full country info
 let backButton = document.querySelector('#back-home-btn');
@@ -215,9 +198,10 @@ let dataCountry = (country) =>{
 
     let languages = country.languages;
     let arrLanguages = [];
+
     languages.map(lang=>{
         arrLanguages.push(lang.name);
     })
-    lng.innerHTML = arrLanguages;
 
+    lng.innerHTML = arrLanguages;
 }
