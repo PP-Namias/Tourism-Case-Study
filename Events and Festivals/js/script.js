@@ -46,7 +46,7 @@ let countryData = [];
 // fetching api in rest country api
 let countryList = async ()=>{
     try {
-    let fetchCountryList = await fetch('./script/Events-and-Festivals.json');
+    let fetchCountryList = await fetch('./js/Events-and-Festivals.json');
     countryData = await fetchCountryList.json();
 
     loadCountry(countryData);
