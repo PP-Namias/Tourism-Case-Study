@@ -21,7 +21,7 @@ video {
   justify-content: center;
 }
 
-.about-us  {
+.title  {
   left: -25%;
   position: absolute;
   width: 150%;
@@ -442,5 +442,78 @@ video {
   }
   75% {
     transform: translateX(-48%) translateY(-49%) rotate(2deg) scale(1.15);
+  }
+}
+
+
+
+
+
+#about-us {
+  overflow: auto;
+}
+#about-us #descriptions {
+  left: 50%;
+  margin: 20px;
+  margin-top: 100px;
+  position: absolute;
+  top: 0px;
+  transform: translateX(-50%);
+}
+#about-us #descriptions .loading-indicator {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  height: 200px;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  width: 322px;
+}
+#about-us #descriptions .loading-indicator h1 {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Roboto", san-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0px;
+  text-align: center;
+  z-index: 3;
+}
+#about-us #descriptions .loading-indicator:before, #about-us #descriptions .loading-indicator:after {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  content: "";
+}
+#about-us #descriptions .loading-indicator:after {
+  background-color: white;
+  border-radius: 13px;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+}
+#about-us #descriptions .loading-indicator:before {
+  animation: loading-indicator-rotation 3s linear infinite;
+  background: #03a9f4;
+  height: 150px;
+  width: 200%;
+}
+#about-us #descriptions #members:before {
+  background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+  height: 200%;
+}
+#about-us #descriptions #details:before {
+  background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+  height: 200%;
+}
+
+@keyframes loading-indicator-rotation {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
   }
 }
