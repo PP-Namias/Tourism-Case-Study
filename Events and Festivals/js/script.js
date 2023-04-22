@@ -70,7 +70,7 @@ searchCountry.addEventListener('input', (e) =>{
     if(capitalizeSearch.match(searchCountry)){
         countryContainer.innerHTML = `
                         <div class="displayText">
-                            <h1>Country Not Found</h1>
+                            <h1>Festivals/Events Not Found</h1>
                         </div>`                 
     }
     else{
@@ -187,7 +187,7 @@ backButton.addEventListener('click', ()=>{
 let dataCountry = (country) =>{
     bigImage.src = country.flags.png;
     countryName.innerHTML = ` <p>${country.name}</p>`;
-    nativeName.innerHTML = country.nativeName;
+    nativeName.innerHTML = country.description;
     population.innerHTML = country.date;
     region.innerHTML = country.location;
     subRegion.innerHTML = country.subregion;

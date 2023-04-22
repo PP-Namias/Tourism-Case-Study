@@ -3,21 +3,130 @@
     "name": "Ati-Atihan Festival",
     "date": "Third Sunday of January",
     "location": "Kalibo, Aklan",
-    "demonym": "Afghan",
-    "nativeName": "The <b>Ati-Atihan festival</b> is one of the oldest festivals of the Philippines, formerly celebrated about 800 years ago. It is a celebration of Santo Nino (the infant Jesus) and starts with an opening mass in church on the third Sunday of January. The best part about Ati-Atihan is the indulgence of tourists and visitors. You don’t have to merely sit on the sidelines and enjoy the show- you can very well pick up your dancing shoes and be a part of it. Everyone is invited to join the drum beats with colored and happy faces. You’ll also hear chants of \"<i>Viva! Santo Niño!</i>\" and \"<i>Hala Bira! Pwera Pasma!</i>” during this celebration.",
+    "region": "Festivals",
+    "description": "The <b>Ati-Atihan festival</b> is one of the oldest festivals of the Philippines, formerly celebrated about 800 years ago. It is a celebration of Santo Nino (the infant Jesus) and starts with an opening mass in church on the third Sunday of January. The best part about Ati-Atihan is the indulgence of tourists and visitors. You don’t have to merely sit on the sidelines and enjoy the show- you can very well pick up your dancing shoes and be a part of it. Everyone is invited to join the drum beats with colored and happy faces. You’ll also hear chants of \"<i>Viva! Santo Niño!</i>\" and \"<i>Hala Bira! Pwera Pasma!</i>” during this celebration.",
     "flags": {
-      "png": "img/Ati-Atihan Festival.jpg"
+      "png": "./img/Ati-Atihan Festival.jpg"
     }
   },
   {
     "name": "Sinulog Festival",
-    "date": "Third Sunday of January",
-    "location": "Kalibo, Aklan",
-    "population": 40218234,
-    "demonym": "Afghan",
-    "nativeName": "Celebrating Santo Nino is a big festival in the entire nation. The city of Cebu also hosts a grand festival in Santo Nino’s honour as the Ati-Atihan Sinulog Festival. ‘Sinulog’ translates to ‘like the water current’, which is the name of the step performed by dancers in the street. It goes two steps forward and one step backwards, forming a sort of water wave. The dance ritual marks the Filipino pagan past and its transition to Christianity. The festival has parties, concerts, processions, parades, food stalls, trade fairs, drum beats, and a lot of dancing. This festival brings everyone together to honour and celebrate the patron saint of Cebu.",
+    "date": "January 15",
+    "location": "Cebu City",
+    "region": "Festivals",
+    "description": "Celebrating <b>Santo Nino</b> is a big festival in the entire nation. The city of Cebu also hosts a grand festival in Santo Nino’s honour as the Ati-Atihan Sinulog Festival. <i>‘Sinulog’</i> translates to ‘like the water current’, which is the name of the step performed by dancers in the street. It goes two steps forward and one step backwards, forming a sort of water wave. The dance ritual marks the Filipino pagan past and its transition to Christianity. The festival has parties, concerts, processions, parades, food stalls, trade fairs, drum beats, and a lot of dancing. This festival brings everyone together to honour and celebrate the patron saint of Cebu.",
     "flags": {
-      "png": "img/Sinulog Festival.jpg"
+      "png": "./img/Sinulog Festival.jpg"
+    }
+  },
+  {
+    "name": "Kaamulan Festival",
+    "date": "March 23 to April 23",
+    "location": "Malaybalay City, Bukidnon",
+    "region": "Festivals",
+    "description": "The Kaamulan Festival is a blend of a thanksgiving ritual, a peace pact between tribes, a datukship ritual, and a wedding ceremony. This festival is an authentic and ethnic event reflecting on the vibrance of tribes and their traditions. It is hosted by seven ethnic Filipino tribes- Bukidnon, Talaandig, Tigwahanon, Manobo, Umayamnon, Matigsalog, and Higaonon. It originated from the word ‘amul’, meaning ‘to gather’. The tribes gather to showcase their tribal costumes, dances, and products. It is a beautiful festival to witness. They also have various traditions and rituals like Pag Ampo (general worship), the Tagulambong hu Datu (ritual for the installation of a Chieftain), the Panumanod (a spiriting ceremony), the Panli Sig (rite to drive away evil spirits), and the Pamalas (sin atonement ritual).",
+    "flags": {
+      "png": "./img/Kaamulan Festival.jpg"
+    }
+  },
+  {
+    "name": "Moriones Festival",
+    "date": "April 2 to 8",
+    "location": "Island of Marinduque",
+    "region": "Festivals",
+    "description": "The Moriones Festival is probably the most dramatic and active festival in the Philippines. It relates to the life of St. Longinus, the centurion who pierced Jesus with a spear during the crucifixion. People reenact the search of Longinus post-crucifixion quite literally. They dress up as Roman soldiers, hide among houses, and playfully scare the children of the city. It is an intriguing act to behold. In fact, the word ‘Morion’ means the ‘helmet of Roman soldiers’. This festival gives a theatrical outlook into the traditions of the country and is a perfect blend of mysticism and pageantry.",
+    "flags": {
+      "png": "./img/Moriones Festival.jpg"
+    }
+  },
+  {
+    "name": "Panagbenga Festival",
+    "date": "February",
+    "location": "Baguio City",
+    "region": "Festivals",
+    "description": "The Panagbenga Festival is a hopeful and the prettiest festival in the country. It celebrates the rising up of Baguio City after the 1990 Luzon earthquakes. The Kankanaey term ‘Panagbenga’ means ‘A Season of Blossoming’. The entire city is decorated with blooming and colourful flowers. It lasts for a whole month and also includes a Grand Float Parade, where giant floats of different characters are made of flowers and displayed in the parade. There is also a dance and costume competition where participants dance to Cordilleran music, along with celebrities and local performers. Session Street and Burnham Park is the main spot of celebration. Baguio city is known as the Summer Capital of the Philippines due to this festival.",
+    "flags": {
+      "png": "./img/Panagbenga Festival.jpg"
+    }
+  },
+  {
+    "name": "Giant Lantern Festival",
+    "date": "December",
+    "location": "San Fernando City",
+    "region": "Festivals",
+    "description": "The <b>Giant Lantern Festival</b> celebrates Christmas the right way, an entire month of giant lanterns lighting up the Christmas Capital of the Philippines- San Fernando City. It gives out the perfect holiday vibes, especially on the weekend before Christmas Eve, when there is a competition for the largest lantern in the city. People begin to make these lanterns a month before the festival, the only compulsion of the competition being the use of locally available materials. The lanterns rise over 15 feet in diameter and are displayed in colourful parades in each barrio in Pampanga before the midnight mass of Christmas. San Fernando City is a great place to celebrate Christmas.",
+    "flags": {
+      "png": "./img/Giant Lantern Festival.jpg"
+    }
+  },
+  {
+    "name": "Dinagyang Festival",
+    "date": "January 13 to 22",
+    "location": "Iloilo City",
+    "region": "Festivals",
+    "description": "<i>‘Dinagyang’</i> is a Hiligaynon word meaning <i>‘merrymaking’<i/>. It hosts a celebration of the Santo Nino and the pact between the Datus and the locals after the arrival of Malay settlers. This festival is a beautiful time to witness the street life of the country. Hosted on the fourth Sunday of January, there is a competitive street dancing contest featuring tribes, barangays, and schools. It also gives you a chance to experience a hip street party with local food, delicacies, and drinks. The streets are closed off and there is a celebration with a parade of tableaus of folkloric scenarios and dancers in body paint with outrageous and vibrant costumes. It is truly a merry festival.",
+    "flags": {
+      "png": "./img/Dinagyang Festival.jpg"
+    }
+  },
+  {
+    "name": "Pahiyas Festival",
+    "date": "May 15",
+    "location": "Lucban, Quezon",
+    "region": "Festivals",
+    "description": "The Pahiyas Festival reflects Filipino creativity in its decorations and festivities. It celebrates the patron saint of farmers for a good harvest- San Isidro Labrador. A parade of locals in costumes, giant paper-mache, and designed floats is hosted. The interesting part is the decorations. The houses and floats are decorated with fruits, vegetables, and colourful Kiplings which are traditional Filipino leaf-shaped wafers, made with glutinous rice. Moreover, all this fresh produce is available for visitors. People can pick this produce from houses free of charge and also enjoy local delicacies like the Lucban Longganisa and kaldereta. The best-decorated house is also honoured.",
+    "flags": {
+      "png": "./img/Pahiyas Festival.jpg"
+    }
+  },
+  {
+    "name": "Kadayawan Festival",
+    "date": "August 14 to 20",
+    "location": "Davao City",
+    "region": "Festivals",
+    "description": "<i>‘Kadayawan’</i> is a native expression in the Dabawon tongue, derived from the word <i>‘madayaw’</i> meaning <i>‘good, valuable, and superior’</i>. This festival is a festival of thankfulness and relates to thanksgiving traditions. The locals pay tribute to their indigenous people and express gratitude for a plentiful harvest. The streets are decorated with fresh fruits, vegetables, and handicrafts. A parade of vibrant floats coloured with produce and flowers is also hosted, along with horse fights, beauty pageants, boat races, and a firework display.",
+    "flags": {
+      "png": "./img/Kadayawan Festival.jpg"
+    }
+  },
+  {
+    "name": "Masskara Festival",
+    "date": "October 22",
+    "location": "Bacolod City",
+    "region": "Festivals",
+    "description": "If you’re a party person, the Masskara Festival of the Philippines is not to be missed. The meaning behind the celebration and the celebration itself- both top each other off. It began in 1980 as a way to escape from the reality of the situation. The locals put on smiling masks despite hardships and brought the masked metaphor to life. It is celebrated similarly to the current day. People put on smiling masks and enjoy a masquerade party with street dancing, food, and drinks. The masks are colourful and decorated with flowers, feathers, beads, and paints. The festival also hosts unique contests like chasing after a pig and downing coconut milk. The footfall of the festival is over 3 million people over the course of 20 days. A parade called the Electric Masskara is also conducted with floats decorated with light and music.",
+    "flags": {
+      "png": "./img/Masskara Festival.jpg"
+    }
+  },
+  {
+    "name": "Higantes Festival",
+    "date": "November 22 and 23",
+    "location": "Angono, Philippines",
+    "region": "Festivals",
+    "description": "The Higantes Festival is based on the Angono folklore that tells us about ‘hingates’ or giant paper mache made by the locals to protest against the Spanish inquisition. And now, these paper mache are used as a part of the Higantes Festival. It is celebrated to honour the town’s patron saint- San Clemente. The locals open their homes and dining to visitors as a feast celebration. Paper mache as long as 12 feet are built for each barangay. There are a lot of different ceremonies during this time including basaan where people are sprinkled with holy water during the higantes parade for good fortune. This festival is also why Agono is often known as the Art Capital of the Philippines.",
+    "flags": {
+      "png": "./img/Higantes Festival.jpg"
+    }
+  },
+  {
+    "name": "Pintados Festival",
+    "date": "June 27",
+    "location": "Tacloban City",
+    "region": "Festivals",
+    "description": "The Pintados Festival is the most anticipated festival since 1987, probably because of its raw cultural richness. This festival showcases the native people who lived here before the Spanish, and how they lived their life. You’ll see locals around the street with inked bodies and tattoos, like the tribe people of Leyte and Samar, who were known as the Pintados. It symbolizes the brave warriors of the past and is celebrated with music, dance, and the vibrant colours of green and blue.",
+    "flags": {
+      "png": "./img/Pintados Festival.jpg"
+    }
+  },
+  {
+    "name": "Black Saturday",
+    "date": "Holy Saturday",
+    "location": "Nationwide",
+    "region": "Events",
+    "description": "Black Saturday is part of the Holy Week, which is observed by the majority of Filipinos. It is the day after Good Friday and the day before Easter Sunday. On this day, many Filipinos observe fasting and abstinence, and attend religious services. It is a day of mourning and reflection, as it commemorates the day that Jesus Christ was entombed after his crucifixion.",
+    "flags": {
+      "png": "./img/Black Saturday.jpg"
     }
   }
 ]
