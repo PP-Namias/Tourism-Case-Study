@@ -119,9 +119,8 @@ let loadCountry = (country)=>{
                         <p>${data.name}</p>
                     </div>
                     <div class="country-name-info">
-                        <p>Population: <span class="population">${formatter.format(data.population)}</span></p>
-                        <p>Region: <span class="region">${data.region}</span></p>
-                        <p>Capital: <span class="capital">${data.capital}</span></p>
+                        <p>Date: <span class="region">${data.date}</span></p>
+                        <p>Location: <span class="capital">${data.location}</span></p>
                     </div>
                 </div>
             </div>      
@@ -189,8 +188,8 @@ let dataCountry = (country) =>{
     bigImage.src = country.flags.png;
     countryName.innerHTML = ` <p>${country.name}</p>`;
     nativeName.innerHTML = country.nativeName;
-    population.innerHTML = formatter.format(country.population);
-    region.innerHTML = country.region;
+    population.innerHTML = country.date;
+    region.innerHTML = country.location;
     subRegion.innerHTML = country.subregion;
     capital.innerHTML = country.capital;
     tDomain.innerHTML = country.topLevelDomain;

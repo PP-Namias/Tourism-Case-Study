@@ -90,7 +90,6 @@ const isValidMp3 = data => {
   console.log(data.items[0])
   return data.items 
     && data.items.length === 1 
-    && data.items.volume === 0.2
     && data.items[0].kind === 'file'
     && (data.items[0].type === 'audio/mp3' || data.items[0].type === 'audio/mpeg')
 }
@@ -204,7 +203,7 @@ const processAudio = mp3 => {
   if(mp3 === 'default'){
     audio = new Audio('IMFITP jingle.mp3')
     audio.crossOrigin = 'anonymous'
-    audio.volume = 0.5
+    audio.volume = 1
   }
   else{
     audio = createAudio(mp3)
