@@ -30,43 +30,6 @@
   --blob-color-2: dodgerblue;
 }
 
-.screen {
-  width: 100%;
-  display: flex;
-  border: 3px solid rgba(223, 179, 36, 0.712);
-  aspect-ratio: 10 / 16;
-  border-radius: 1rem;
-  background-color: rgba(245, 200, 53, 0.808);
-  overflow: hidden;
-  position: relative;
-  z-index: 10;
-}
-
-.screen:after,
-.screen:before {
-  content: "";
-  height: 5px;
-  position: absolute;
-  z-index: 4;
-  left: 50%;
-  translate: -50% 0%;
-  background-color: white;
-}
-
-.screen:before {
-  width: 15%;
-  top: 0rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.screen:after {
-  width: 25%;
-  bottom: 0rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
 @keyframes pan-overlay {
   from {
     background-position: 0% 0%;
@@ -148,6 +111,11 @@
 
 .screen > .sinulog {
   background-image: url("../../img/Festivals/Sinulog-Festival.jpg");
+	filter: hue-rotate(21deg);
+}
+
+.screen > .ati-atihan {
+  background-image: url("../../img/Festivals/Ati-Atihan Festival.jpg");
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
