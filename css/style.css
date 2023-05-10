@@ -119,6 +119,16 @@
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
+.screen > .panagbenga {
+  background-image: url("../../img/Festivals/Panagbenga-Festival.jpg");
+	filter: sepia(10%) hue-rotate(8deg);
+}
+
+.screen > .moriones {
+  background-image: url("../../img/Festivals/Moriones-Festival.jpg");
+	filter: sepia(10%) hue-rotate(8deg);
+}
+
 .screen > .screen-image {
   height: 100%;
   width: 100%;
@@ -742,20 +752,12 @@ ol {
 	margin-bottom: 30px;
 }
 
-.trending__product {
-	margin-bottom: 50px;
-}
-
-.popular__product {
-	margin-bottom: 50px;
-}
-
-.recent__product {
+.festivals {
 	margin-bottom: 50px;
 }
 
 .product__item {
-	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 .product__item__pic {
@@ -774,18 +776,6 @@ ol {
 	position: absolute;
 	left: 10px;
 	top: 10px;
-}
-
-.product__item__pic .comment {
-	font-size: 13px;
-	color: #ffffff;
-	background: #3d3d3d;
-	display: inline-block;
-	padding: 2px 10px;
-	border-radius: 4px;
-	position: absolute;
-	left: 10px;
-	bottom: 10px;
 }
 
 .product__item__pic .view {
@@ -810,7 +800,7 @@ ol {
 
 .product__item__text ul li {
 	list-style: none;
-	font-size: 10px;
+	font-size: 12px;
 	color: #ffffff;
 	font-weight: 700;
 	padding: 1px 10px;
