@@ -134,6 +134,11 @@
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
+.screen > .pahiyas {
+  background-image: url("../../img/Festivals/Pahiyas-Festival.jpg");
+	filter: sepia(10%) hue-rotate(8deg);
+}
+
 .screen > .screen-image {
   height: 100%;
   width: 100%;
