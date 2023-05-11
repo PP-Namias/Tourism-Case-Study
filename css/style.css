@@ -25,9 +25,6 @@
   
   --blue-rgb: 33 150 243;
   --primary-rgb: var(--blue-rgb);
-  
-  --blob-color-1: rgb(var(--blue-rgb));
-  --blob-color-2: dodgerblue;
 }
 
 @keyframes pan-overlay {
@@ -267,7 +264,6 @@ ol {
 }
 
 .set-bg {
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
 }
