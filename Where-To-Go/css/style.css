@@ -6,6 +6,9 @@
     --dark: #14141F;
 }
 
+.navbar {
+    background-color: black !important;
+}
 .fw-medium {
     font-weight: 600 !important;
 }
