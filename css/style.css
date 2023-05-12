@@ -871,6 +871,7 @@ ol {
 }
 
 .product__sidebar__view__item {
+	filter: brightness(80%);
 	height: 190px;
 	position: relative;
 	border-radius: 5px;
