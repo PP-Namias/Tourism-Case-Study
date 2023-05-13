@@ -2554,3 +2554,1089 @@ ol {
 	padding: 0px 20px;
 	color: black;
 }
+
+.logo img {
+	position: relative;
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.logotxt {
+	width: 80%;
+	font-size: 60px;
+	color: aliceblue;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.dive {
+	height: 70vh;
+	width: 100%;
+	background-color: rgb(43, 39, 39);
+	display: flex;
+	position: relative;
+}
+
+.title {
+	background-color: rgb(0, 47, 255);
+	margin: 0 auto;
+	max-width: 300px;
+	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	transform: translate(-50%);
+	text-align: center;
+	
+}
+
+.title h1 {
+	font-size: 40px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+.divename {
+	background-color: rgb(0, 110, 255);
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 10% 10% 0% 0% / 50% 50% 0% 0%;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	text-align: center;
+	
+}
+
+.divename h2 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+}
+
+.diveloc {
+	background-color: aliceblue;
+	height: 398px;
+	width: 1300px;
+	position: absolute;
+	left: 0%;
+	top: 100%;
+}
+
+.dimg1 {
+	position: absolute;
+	display: flex;
+	left:0%;
+	opacity: .9;
+	transition: 1s;
+
+}
+
+.dimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.dimg1:hover{
+	opacity: 1;
+ 
+}
+
+.dimg1text {
+	width: 100%;
+	height: 100%;
+	top: 75%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.dimg1text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.dimg2 {
+	position: absolute;
+	left:25%;
+	display: flex;
+	opacity: 0.9;
+	transition: 1s;
+}
+
+.dimg2 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.dimg2:hover{
+	opacity: 1;
+ 
+}
+
+.dimg2text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: -12.5%;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.dimg2text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.dimg3 {
+	position: absolute;
+	left:50%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.dimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.dimg3:hover{
+	opacity: 1;
+ 
+}
+
+.dimg3text {
+	width: 100%;
+	height: 100%;
+	top: 75%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.dimg3text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.dimg4 {
+	position: absolute;
+	left:75%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.dimg4 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.dimg4:hover{
+
+	opacity: 1;
+}
+
+.dimg4text {
+	width: 100%;
+	height: 100%;
+	top: 75%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.dimg4text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.nature {
+	height: 60vh;
+	width: 100%;
+	background-color: rgb(24, 22, 22);
+	display: flex;
+	position: relative;
+}
+
+.naturename {
+	background-color: rgb(21, 255, 0);
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 10% 10% 0% 0% / 50% 50% 0% 0%;
+	position: absolute;
+	left: 10%;
+	top: 18.5%;
+	text-align: center;
+}
+
+.naturename h2 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+}
+
+.natureloc {
+	background-color: aliceblue;
+	height: 398px;
+	width: 1300px;
+	position: absolute;
+	left: 0%;
+	top: 100%;
+}
+
+.nimg1 {
+	position: absolute;
+	left:0%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.nimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.nimg1:hover{
+	opacity: 1;
+}
+
+.nimg1text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.nimg1text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.nimg2 {
+	position: absolute;
+	left:25%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.nimg2 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.nimg2:hover{
+	opacity: 1;
+}
+
+.nimg2text {
+	width: 100%;
+	height: 100%;
+	top: 82%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.nimg2text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+
+.nimg3 {
+	position: absolute;
+	left:50%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.nimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.nimg3:hover{
+	opacity: 1;
+}
+
+.nimg3text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.nimg3text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+
+.nimg4 {
+	position: absolute;
+	left:75%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.nimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.nimg4:hover{
+	opacity: 1;
+}
+
+.nimg4text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.nimg4text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+
+.sunandbeach {
+	height: 60vh;
+	width: 100%;
+	background-color: rgb(43, 39, 39);
+	display: flex;
+	position: relative;
+}
+
+.sunandbeachname {
+	background-color: rgb(229, 255, 0);
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 10% 10% 0% 0% / 50% 50% 0% 0%;
+	position: absolute;
+	left: 10%;
+	top: 18.5%;
+	text-align: center;
+}
+
+.sunandbeachname h2 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+}
+
+.sunandbeachloc {
+	background-color: aliceblue;
+	height: 398px;
+	width: 1300px;
+	position: absolute;
+	left: 0%;
+	top: 100%;
+}
+
+.sabimg1 {
+	position: absolute;
+	left:0%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.sabimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.sabimg1:hover{
+	opacity: 1;
+}
+
+.sabimg1text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.sabimg1text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.sabimg2 {
+	position: absolute;
+	left:25%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.sabimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.sabimg2:hover{
+	opacity: 1;
+}
+
+.sabimg2text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.sabimg2text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.sabimg3 {
+	position: absolute;
+	left:50%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.sabimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.sabimg3:hover{
+	opacity: 1;
+}
+
+.sabimg3text {
+	width: 100%;
+	height: 100%;
+	top: 82%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.sabimg3text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.sabimg4 {
+	position: absolute;
+	left:75%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.sabimg4 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.sabimg4:hover{
+	opacity: 1;
+}
+
+.sabimg4text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.sabimg4text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.adventure {
+	height: 60vh;
+	width: 100%;
+	background-color: rgb(24, 22, 22);
+	display: flex;
+	position: relative;
+}
+
+.adventurename {
+	background-color: rgb(255, 166, 0);
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 10% 10% 0% 0% / 50% 50% 0% 0%;
+	position: absolute;
+	left: 10%;
+	top: 18.5%;
+	text-align: center;
+}
+
+.adventurename h2 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+}
+
+.adventureloc {
+	background-color: aliceblue;
+	height: 398px;
+	width: 1300px;
+	position: absolute;
+	left: 0%;
+	top: 100%;
+}
+
+.aimg1 {
+	position: absolute;
+	left:0%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.aimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.aimg1:hover{
+	opacity: 1;
+}
+
+.aimg1text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.aimg1text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.aimg2 {
+	position: absolute;
+	left:25%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.aimg2 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.aimg2:hover{
+	opacity: 1;
+}
+
+.aimg2text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.aimg2text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.aimg3 {
+	position: absolute;
+	left:50%;
+	opacity: o.8;
+	transition: 1s;
+}
+
+.aimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.aimg3:hover{
+	opacity: 1;
+}
+
+.aimg3text {
+	width: 100%;
+	height: 100%;
+	top: 82%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.aimg3text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.aimg4 {
+	position: absolute;
+	left:75%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.aimg4 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.aimg4:hover{
+	opacity: 1;
+}
+
+.aimg4text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.aimg4text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.foodandhospitality {
+	height: 60vh;
+	width: 100%;
+	background-color: rgb(43, 39, 39);
+	display: flex;
+	position: relative;
+}
+
+.foodandhospitalityname {
+	background-color: rgb(229, 255, 0);
+	margin: 0 auto;
+	width: 300px;
+	border-radius: 10% 10% 0% 0% / 50% 50% 0% 0%;
+	position: absolute;
+	left: 10%;
+	top: 18.5%;
+	text-align: center;
+}
+
+.foodandhospitalityname h2 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+}
+
+.foodandhospitalityloc {
+	background-color: aliceblue;
+	height: 398px;
+	width: 1300px;
+	position: absolute;
+	left: 0%;
+	top: 100%;
+}
+
+.fahimg1 {
+	position: absolute;
+	left:0%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.fahimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.fahimg1:hover{
+	opacity: 1;
+}
+
+.fahimg1text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fahimg1text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.fahimg2 {
+	position: absolute;
+	left:25%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.fahimg2 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.fahimg2:hover{
+	opacity: 1;
+}
+
+.fahimg2text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fahimg2text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.fahimg3 {
+	position: absolute;
+	left:50%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.fahimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.fahimg3:hover{
+	opacity: 1;
+}
+
+.fahimg3text {
+	width: 100%;
+	height: 100%;
+	top: 76%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fahimg3text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.fahimg4 {
+	position: absolute;
+	left:75%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.fahimg4 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.fahimg4:hover{
+	opacity: 1;
+}
+
+.fahimg4text {
+	width: 100%;
+	height: 100%;
+	top: 82%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fahimg4text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.eventsandculture {
+	height: 61.7vh;
+	width: 100%;
+	background-color: rgb(24, 22, 22);
+	display: flex;
+	position: relative;
+}
+
+.eventsandculturename {
+	background-color: rgb(162, 0, 255);
+	margin: 0 auto;
+	width: 300px;
+	border-radius: 10% 10% 0% 0% / 50% 50% 0% 0%;
+	position: absolute;
+	left: 10%;
+	top: 18.5%;
+	text-align: center;
+}
+
+.eventsandculturename h2 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+}
+
+.eventsandcultureloc {
+	background-color: aliceblue;
+	height: 398px;
+	width: 1300px;
+	position: absolute;
+	left: 0%;
+	top: 100%;
+}
+
+.eacimg1 {
+	position: absolute;
+	left:0%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.eacimg1 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.eacimg1:hover{
+	opacity: 1;
+}
+
+.eacimg1text {
+	width: 100%;
+	height: 100%;
+	top: 78%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.eacimg1text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.eacimg2 {
+	position: absolute;
+	left:25%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.eacimg2 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.eacimg2:hover{
+	opacity: 1;
+}
+
+.eacimg2text {
+	width: 100%;
+	height: 100%;
+	top: 78%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.eacimg2text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+
+.eacimg3 {
+	position: absolute;
+	left:50%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.eacimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.eacimg3:hover{
+	opacity: 1;
+}
+
+.eacimg3text {
+	width: 100%;
+	height: 100%;
+	top: 70%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.eacimg3text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
+
+.eacimg4 {
+	position: absolute;
+	left:75%;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.eacimg3 img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.eacimg4:hover{
+	opacity: 1;
+}
+
+.eacimg4text {
+	width: 100%;
+	height: 100%;
+	top: 78%;
+	left: 0;
+	position: absolute;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.eacimg4text h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	font-family: "Oswald", sans-serif;
+}
