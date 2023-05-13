@@ -1433,6 +1433,7 @@ ol {
 -----------------------*/
 
 .normal-breadcrumb {
+	filter: brightness(70%);
 	height: 300px;
 	display: -webkit-box;
 	display: -ms-flexbox;
