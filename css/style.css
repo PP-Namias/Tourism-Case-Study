@@ -2459,3 +2459,98 @@ ol {
 		padding: 18px 20px 20px;
 	}
 }
+
+
+
+.about-us {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 20%;
+	margin-bottom: 16px;
+	padding: 0 50px;
+}
+
+@media screen and (max-width: 650px) {
+	.column {
+		width: 100%;
+		display: block;
+	}
+}
+
+.heading{
+	color: #00FFFF;
+	text-align: center;
+	font-size: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.image-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-container .image{
+width: 120px;
+height: 120px;
+background:black;
+margin: 2px 50px;
+border-radius: 50%;
+border: 3px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.image:hover{
+border: 10px solid cyan;
+}
+
+.image-container img{
+width: 116px;
+height: 116px;
+border-radius: 50px;
+}
+
+.info-container{
+width: 1100px;
+height: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: white;
+margin: 0 auto;
+margin-top: 50px;
+border-radius: 5px;
+box-shadow: 0px 0px 50px cyan;
+}
+
+.profile{
+width: 350px;
+height: 350px;
+border-radius: 15px;
+padding: 10px;
+margin: 0;
+}
+
+.name{
+margin-top: 80px;
+padding: 0px 15px;
+text-align: left;
+font-size: 50px;
+}
+
+.status{
+padding: 0px 20px;
+text-align: left;
+margin: 0;
+}
+
+.about{
+height: 240px;
+padding: 0px 20px;
+color:black;
+}

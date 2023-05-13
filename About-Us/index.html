@@ -92,68 +92,21 @@
     <section class="blog-details spad">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-12">
-                    <div class="blog__details__pic">
-                        <img src="../img/Events-and-Festivals/Bambanti-Festival-Isabela.jpg" alt="Bambanti Festival">
+                <div class="about-us">
+                    <div class="image-container">
+                        <div class="image" onclick="fetch_info(0)"><img src="Namias.jpg"></div>
+                        <div class="image" onclick="fetch_info(1)"><img src="Rashly.jpg"></div>
+                        <div class="image" onclick="fetch_info(2)"><img src="Ronan.jpg"></div>
+                        <div class="image" onclick="fetch_info(3)"><img src="Yvez.jpg"></div>
                     </div>
-                </div>
-                <div class="col-lg-8">
-
-
-
-
-
-                    
-                    <div class="hero">
-                        <div class="person">
-                            <div class="container">
-                                <div class="container-inner">
-                                    <img class="circle" src= "https://i.pinimg.com/236x/81/34/08/81340844a99a35cc7993166cbd9b5866.jpg">
-                                    <img class="img img1" src="Assets/mike.png">
-                                </div>
-                            </div>
-                            <h1 class="name"><span class="auto-type"></span></h1>
-                            <div class="title">Member</div>
-                        </div>
-                        <div class="person">
-                            <div class="container">
-                                <div class="container-inner">
-                                    <img class="circle" src="https://i.pinimg.com/236x/51/ff/65/51ff657c0086aa18963d200f98f266ca.jpg">           
-                                    <img class="img img2" src="Assets/kevin.png">
-                                </div>
-                            </div>
-                            <h1 class="name"><span class="auto-type1"></span></h1>
-                            <div class="title">Member</div>
-                        </div>
-                        <div class="person">
-                            <div class="container">
-                                <div class="container-inner">
-                                    <img class="circle" src="https://i.pinimg.com/236x/96/fb/be/96fbbe872dbd15286f976d7173033544.jpg">
-                                    <img class="img img3" src="Assets/calvin.png">
-                                </div>
-                            </div>
-                            <h1 class="name"><span class="auto-type2"></span></h1>
-                            <div class="title">Member</div>
-                        </div>
-                        <div class="person">
-                            <div class="container">
-                                <div class="container-inner">
-                                    <img class="circle" src="https://i.pinimg.com/236x/75/9b/0a/759b0a4df62ece1790513e678760c2a4.jpg">
-                                    <img class="img img4" src="Assets/lyniel.png">
-                                </div>
-                            </div>
-                            <h1 class="name"><span class="auto-type3"></span></h1>
-                            <div class="title">Member</div>
-                        </div>
-                        <div class="person">
-                            <div class="container">
-                                <div class="container-inner">
-                                    <img class="circle" src="https://i.pinimg.com/236x/93/c6/e1/93c6e1ce8894ccf85acc3354266adc83.jpg">
-                                    <img class="img img5" src="Assets/bea.png">
-                                </div>
-                            </div>
-                            <h1 class="name"><span class="auto-type4"></span></h1>
-                            <div class="title">Member</div>
+                    <div class="info-container">
+                        <img class="profile" id="profile" src="image/aboutsamen.jpg">
+                        <div class="info">
+                            <h1 class="name" id="name">VeloRyders Websystem's</h1>
+                            <h3 class="status" id="status">Greetings!</h3>
+                            <p class="about" id="about">
+                                "Welcome to VeloRyders, the ultimate destination for the cycling community. Our website is dedicated to all things related to cycling, including news, events, reviews, and resources. We aim to create a thriving online community for cyclists of all levels, from beginners to experienced riders. Whether you're looking to improve your cycling skills, connect with other riders, or discover new routes to explore, VeloRyders has everything you need. Join our community today and let's ride together!"
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -216,5 +169,31 @@
     <script src="../js/jquery.slicknav.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
+    <script>
+        function fetch_info(i){
+            let profile = ["Namias.jpg","Rashly.jpg","Ronan.jpg","Yvez.jpg"];
+            let name = [
+                "Jhon Keneth Namias", 
+                "Rashly Estramadura", 
+                "Ronan Valencia", 
+                "Yvez Cabudsan"];
+            let status = [
+                "BSCS-1A/Programmer",
+                "BSCS-1A/Programmer",
+                "BSCS-1A/Programmer",
+                "BSCS-1A/Programmer"];
+            let about = [
+                "Hello! I go by the name of Jhon Keneth Namias, a 19-year-old resident of Caloocan. During my leisure time, I relish viewing YouTube videos, particularly those concerning technology and gaming. I am currently enrolled as a B.S. Computer Science major with a specialization in Game Development at the University of Caloocan City. I am also recognized as PP Namias on the internet, which further intensifies my love for all things tech-related. Moreover, I strive to absorb as much knowledge from my course to ensure a stable financial future for myself, my family, and my interests.",
+                "Greetings! I'm Rashly R. Estremadura currently 19 years of age residing at Bagong Silang, Caloocan. I'm currently enrolled at University of Caloocan City with the course of Bacherlor of Science in Computer Science. I like to learn new things.",
+                "Hi! Good morning/Good afternoon, I'm Ronan Renz T. Valencia currently studying Bachelor Science in Computer  Science, as for me everything stem from curiosity, that curiosity that keep you from learning things and the same curiosity that makes you creative and experimentive, so far I'm learning a lot from the professor's and my fellow classmates.",
+                "Hello everyone, my name is Yvez Lawrence M. Cabudsan. I am 19 years old, currently studying at the University of Caloocan City. My goal is to be a successful engineer. I can speak Python, Java, C++, HTML, and a little bit of Visual Basic"];
+            document.getElementById("profile").src = profile[i];
+            document.getElementById("name").innerHTML = name[i];
+            document.getElementById("status").innerHTML = status[i];
+            document.getElementById("about").innerHTML = about[i] + 
+            "" +
+            "Thank you";
+        }
+    </script>
 </body>
 </html>
