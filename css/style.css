@@ -107,32 +107,32 @@
 }
 
 .screen > .sinulog {
-  background-image: url("../../img/Festivals/Sinulog-Festival.jpg");
+  background-image: url("../img/Festivals/Sinulog-Festival.jpg");
 	filter: hue-rotate(21deg);
 }
 
 .screen > .ati-atihan {
-  background-image: url("../../img/Festivals/Ati-Atihan-Festival.jpg");
+  background-image: url("../img/Festivals/Ati-Atihan-Festival.jpg");
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
 .screen > .panagbenga {
-  background-image: url("../../img/Festivals/Panagbenga-Festival.jpg");
+  background-image: url("../img/Festivals/Panagbenga-Festival.jpg");
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
 .screen > .moriones {
-  background-image: url("../../img/Festivals/Moriones-Festival.jpg");
+  background-image: url("../img/Festivals/Moriones-Festival.jpg");
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
 .screen > .kaamulan {
-  background-image: url("../../img/Festivals/Kaamulan-Festival.jpg");
+  background-image: url("../img/Festivals/Kaamulan-Festival.jpg");
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
 .screen > .pahiyas {
-  background-image: url("../../img/Festivals/Pahiyas-Festival.jpg");
+  background-image: url("../img/Festivals/Pahiyas-Festival.jpg");
 	filter: sepia(10%) hue-rotate(8deg);
 }
 
