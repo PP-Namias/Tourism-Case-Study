@@ -1,9 +1,36 @@
-/********** Template CSS **********/
 :root {
     --primary: #86B817;
     --secondary: #FE8800;
-    --light: #F5F5F5;
-    --dark: #14141F;
+    --light: #ffffff;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Mulish", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #0b0c2a;
+	background-image: url("../../img/bg.svg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #dddddd;
+}
+
+p {
+	font-size: 15px;
+	color: #dddddd;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+img {
+	max-width: 100%;
 }
 
 .navbar {
@@ -95,7 +122,7 @@
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -127,7 +154,7 @@
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--dark) !important;
+        color: var(--light) !important;
     }
 
     .navbar-light .navbar-brand img {
@@ -459,7 +486,7 @@
     content: "";
     width: calc(100% + 80px);
     height: 2px;
-    top: 4px;
+    top: -5px;
     left: -40px;
     background: var(--primary);
     z-index: -1;
@@ -470,7 +497,7 @@
     content: "";
     width: calc(100% + 120px);
     height: 2px;
-    bottom: 5px;
+    bottom: -4px;
     left: -60px;
     background: var(--primary);
     z-index: -1;
@@ -711,6 +738,9 @@
 }
 
 .logo1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     height: 60px;
     width: 150px;
     margin-bottom: 20px;
